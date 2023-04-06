@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import ConditionalComponent from './components/ConditionalComponent';
+// import Calculator from './components/Calculator';
+// import Profile from './components/Profile'
+// import Counter from './components/Counter';
+// import { Hello, Hello1 } from './components/Hello';
+// import FunctionEvent from './components/FunctionEvent';
+// import Counter from './components/Counter';
+// import FunctionalCounter from './components/FunctionalCounter';
 
-function App() {
+function App(date1) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+     <div>
+        <h1>Learning ReactJs</h1>
+        <ConditionalComponent>
+
+        </ConditionalComponent>
+     </div>
+    
   );
 }
 
